@@ -25,11 +25,11 @@
     <header>
       <!-- add menu, navigations (шапка) -->
       <nav>
-        <a class="nav_links" href="#home">Home</a>
-        <a class="nav_links" href="#about">About me</a>
-        <a class="nav_links" href="#skills">Skills</a>
-        <a class="nav_links" href="#portfolio">Portfolio</a>
-        <a class="nav_links" href="#contacts">Contacts</a>
+        <a class="nav_links" href="#id1">Home</a>
+        <a class="nav_links" href="#id2">About me</a>
+        <a class="nav_links" href="#id3">Skills</a>
+        <a class="nav_links" href="#id4">Portfolio</a>
+        <a class="nav_links" href="#id5">Contacts</a>
       </nav>
     </header>
 
@@ -41,8 +41,8 @@
 
     <!-- add main for page (основа)-->
     <main>
-      <div class="about">
-        <h2>About me</h2>
+      <div id="id2" class="about">
+        <h2 >About me</h2>
 
         <div>
           <p>
@@ -60,7 +60,7 @@
 
       </div>
 
-      <div class="skills" > 
+      <div id="id3" class="skills" > 
         <h2>Skills</h2>
         <p>I work in such programs as</p>
         <div>
@@ -72,7 +72,7 @@
       </div>
 
       <!-- add portfolio image-block -->
-      <div class="portfolio">
+      <div id="id4" class="portfolio">
         <h2>Portfolio</h2>
         <div>
           <img style="im_image" src="./image/Portfolio.png" alt="" />
@@ -102,19 +102,20 @@
     <!-- add footer (підвал) -->
     <footer>
       <div class="_footer">
-        <h2>Contacts</h2>
-        <a href="#"
+        <h2 id="id5">Contacts</h2>
+        <p
           >Want to know more or just chat? <br />
-          You are welcome!</a
-        >
-        <button>Send message</button>
+          You are welcome!</p>
+        <a href="#">
+          <button>Send message</button>
+        </a>
         <div>
           <a href="#"><img src="./image/linkedin.png" alt="linkedin" /></a>
           <a href="#"><img src="./image/insta.png" alt="instagram" /></a>
           <a href="#"><img src="./image/behance.png" alt="behance" /></a>
           <a href="#"><img src="./image/dribble.png" alt="Dribble" /></a>
         </div>
-        <p>
+        <p class="footer_p">
           Like me on <br />
           LinkedIn, Instagram, Behance, <br />
           Dribble

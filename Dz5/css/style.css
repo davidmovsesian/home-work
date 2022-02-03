@@ -175,9 +175,6 @@ div.skills p {
   /* Blend:  Pass through; */
   font-size: 18px;
   line-height: 25px;
-  /* identical to box height */
-
-  /* text-align: center; */
   letter-spacing: 0.1em;
 }
 

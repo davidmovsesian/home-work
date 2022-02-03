@@ -40,9 +40,8 @@ nav {
   margin-right: auto;
   margin-top: 22px;
   width: 940px;
-  height:50px;
+  height: 50px;
   display: block;
-
 }
 
 div {
@@ -57,7 +56,6 @@ div {
   /* border-block: fixed; */
   /* box-align: auto; */
   padding: 20%;
-  
 }
 
 .im_image {
@@ -100,7 +98,6 @@ div {
   background-repeat: repeat-x;
   max-width: 100%;
   margin-top: 100px;
-
 }
 
 div.about > div {
@@ -123,28 +120,26 @@ div.about > div p {
 }
 
 .portfolio {
-    background-color: #f6f6f6;
+  background-color: #f6f6f6;
   /* background-size: 100%; */
   padding-bottom: 100px;
-
 }
-.portfolio h2{
+.portfolio h2 {
   margin: 0px auto 30px auto;
 }
 
 div.portfolio img {
   width: 940px;
 }
-.portfolio a{
-  color:#070707;
+.portfolio a {
+  color: #070707;
   font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-text-decoration-line: underline;
-  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration-line: underline;
 }
 
 div.skills div img {
@@ -154,23 +149,23 @@ div.skills div img {
   padding-bottom: 85px;
 }
 
-div.skills p{
-padding-bottom: 80px;
+div.skills p {
+  padding-bottom: 80px;
 }
 
-._footer p{
-padding-bottom: 60px;
-/* font-family: Open Sans; */
-/* font-style: normal; */
-/* font-weight: normal; */
-/* font-size: 18px; */
-line-height: 25px;
-text-align: center;
+._footer p {
+  padding-bottom: 60px;
+  /* font-family: Open Sans; */
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  /* font-size: 18px; */
+  line-height: 25px;
+  text-align: center;
 }
 
-._footer button{
-  Width :180px;
-  Height : 45px;
+._footer button {
+  width: 180px;
+  height: 45px;
   border-radius: 20px;
   margin: 40px;
   background-color: #070707;
@@ -179,29 +174,28 @@ text-align: center;
 
   /* Blend:  Pass through; */
   font-size: 18px;
-line-height: 25px;
-/* identical to box height */
+  line-height: 25px;
+  /* identical to box height */
 
-/* text-align: center; */
-letter-spacing: 0.1em;
+  /* text-align: center; */
+  letter-spacing: 0.1em;
 }
 
-._footer img{
+._footer img {
   margin: 0 30px;
 }
 
-._footer{
+._footer {
   padding-bottom: 100px;
 }
 
-.footer_p{
-  padding-top:45px;
+.footer_p {
+  padding-top: 45px;
   font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 19px;
-text-align: center;
-
-color: #828282;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #828282;
 }

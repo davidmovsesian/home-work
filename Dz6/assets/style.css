@@ -134,10 +134,9 @@ div.box-list-item:active {
   vertical-align: middle;
   margin-left: -10px;
   margin-right: 10px;
-  box-sizing: 100%;
-  -moz-background-size: 100%;
-  -webkit-background-size: 100%;
-  -o-background-size: 100%;
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .box-list-item span {
@@ -160,4 +159,8 @@ div.box-list-item:active {
   width: 100%;
   cursor: pointer;
   display: block;
+}
+
+.box-button:hover{
+transform: scale(1.1);
 }

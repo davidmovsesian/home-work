@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --color-black:  black;
+  --color-white: white;
+  --color-blac-light: #070707; 
+}
+
+body{
+  background-color: var(--color-black);
+  color: var(--color-blac-light);
+}
+
+.conatainer{
+  max-width: 1024px;
+  padding: 0 40px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Skills */
+
+.skills{
+  padding: 20px;
+  background-color: var(--color-white);
+}
+
+.skills__wrapper{
+padding-top: 90px;
+padding-bottom: 110px;
+}
+
+.skills__title{
+  text-align: center;
+  line-height: 43px;
+  font-size:34px;
+}
+
+.skills__subtitle{
+  margin-top: 70px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 18px;
+}

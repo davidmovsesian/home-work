@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Підключаємо стилі, нормалайз, ресет -->
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Додаємо іконку -->
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon1.ico"
+      type="image/x-icon"
+    />
+    <!-- Додаємо шрифти -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__wraper">
+          <div class="left-side">
+            <div class="logo">
+              <div class="logo__icon-container">
+                <span>ENG</span>
+              </div>
+            </div>
+            <nav class="navigation">
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a class="navigation__item__link" href="#"> Documentation </a>
+                </li>
+                <li class="navigation__item">
+                  <span class="navigation__span"> / </span>
+                  <a class="navigation__item__link" href="#"> Who's using </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="logo-right">
+            <img
+              src="./assets/company-logo-black.svg"
+              alt="logo"
+              class="logo-right__img"
+            />
+          </div>
+        </div>
+      </header>
+      <main class="main-block">
+        <div class="main-block__content">
+          <h2 class="main-block__title">1 Introduction</h2>
+          <p class="main-block__paragraf">
+            Welcome to the very start of your React Native journey! If you're
+            looking for environment setup instructions, they've moved
+            <u>to their own section</u>. Continue reading for an introduction to
+            the documentation, Native Components, React, and more!
+          </p>
+          <h2 class="main-block__title">2 Core Components</h2>
+          <p class="main-block__paragraf">
+            React Native is an open source framework for building Android and
+            iOS applications using React and the app platform’s native
+            capabiles. With React Native, you use JavaScript to access your
+            platform’s APIs as well as to describe the appearance and behavior
+            of your UI using React components: bundles of reusable, nestable
+            code. You can learn more about React in the next section. But first,
+            let’s cover how components work in React Native.
+          </p>
+          <h2 class="main-block__title">3 React Fundamentals</h2>
+          <p class="main-block__paragraf">
+            React Native runs on <u>React</u>, a popular open source library for
+            building user interfaces with JavaScript. To make the most of React
+            Native, it helps to understand React itself. This section can get
+            you started or can serve as a refresher course.
+          </p>
+          <p class="main-block__paragraf">
+            We’re going to cover the core concepts behind React:
+          </p>
+          <p class="main-block__paragraf">
+            <strong>+ components.</strong> The rest of this introduction to
+            React uses cats in its examples: friendly, approachable creatures
+            that need names and a cafe to work in.
+          </p>
+          <p class="main-block__paragraf">
+            <strong>+ JSX.</strong> React and React Native use JSX, a syntax
+            that lets you write elements inside JavaScript like so:
+            <span class="main-block__paragraf--border-gray">
+              &lt;Text&gt;Hello, I am your cat!&lt;/Text&gt; </span
+            >. The React docs have a comprehensive guide to JSX you can refer to
+            learn even more. Because JSX is JavaScript, you can use variables
+            inside it. Here you are declaring a name for the cat, name, and
+            embedding it with curly braces inside
+            <span class="main-block__paragraf--border-gray">&lt;Text&gt;</span>.
+          </p>
+          <p class="main-block__paragraf">
+            <strong>+ props.</strong> Props is short for “properties”.
+          </p>
+          <p class="main-block__paragraf">
+            <strong>+ state.</strong> While you can think of props as arguments
+            you use to configure how components render, state is like a
+            component’s personal data storage. State is useful for handling data
+            that changes over time or that comes from user interaction. State
+            gives your components memory!
+          </p>
+          <h2 class="main-block__title">4 Handling Text Input</h2>
+          <p class="main-block__paragraf">
+            TextInput is a Core Component that allows the user to enter text. It
+            has an onChangeText prop that takes a function to be called every
+            time the text changed, and an onSubmitEditing prop that takes a
+            function to be called when the text is submitted.
+          </p>
+          <p class="main-block__paragraf">
+            For example, let's say that as the user types, you're translating
+            their words into a different language. In this new language, every
+            single word is written the same way: &#127829;. So the sentence
+            "Hello there Bob" would be translated as "&#127829;&#127829;".
+          </p>
+        </div>
+      </main>
+
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>

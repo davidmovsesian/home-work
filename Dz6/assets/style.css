@@ -78,6 +78,8 @@ h1 {
   padding-left: 15px;
   padding-top: 10px;
   color: white;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
 .box-list-item input[type="checkbox"] {

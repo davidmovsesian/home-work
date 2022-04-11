@@ -1,0 +1,22 @@
+.wrapper
+	header.header
+		.header__container
+			.header__text
+			.header__navigations
+				nav.navigation
+					.navigation__container
+						.navigation__list .. item .. link
+			.header__logo
+	main.main
+		.main__container
+			.main__sidebar .sidebar
+				.sidebar__menu
+					.sidebar__list .. item .. link
+			.main__content .content
+				.content__block1
+					.content__line
+					.content__title
+					.content__title
+					(там де є потрібно пишемо модифікатор для тексту)
+
+	footer.footer
